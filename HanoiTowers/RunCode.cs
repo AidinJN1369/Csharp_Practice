@@ -8,10 +8,11 @@ namespace RunNamespace
     {
         static void Main()
         {
-            System.Console.WriteLine("enter number of discs u wanna play with : ");
+            System.Console.WriteLine("enter the number of discs you wannt to play with : ");
             int InputNumber = int.Parse(Console.ReadLine());
 
             HanoiTower.NumberOfMoves(InputNumber);
         }
     }
+
 }
